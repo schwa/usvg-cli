@@ -8,6 +8,12 @@ A (rust) tool to process SVG files with usvg (https://github.com/RazrFalcon/resv
 
 ``usvg-cli`` is a simple command-line tool that wraps the usvg parser and allows you to read an SVG file, process it with usvg and then write the processed file. That's it.
 
+## Installation
+
+```shell
+cargo install --git https://github.com/schwa/usvg-cli
+```
+
 ## Usage:
 
 ```shell
