@@ -1,7 +1,16 @@
 [package]
-name = "usvg-test"
+name = "usvg-cli"
 version = "0.1.0"
 edition = "2021"
+
+authors = ["Jonathan Wight <schwa@schwa.io>"]
+license = "MIT"
+description = "A tool to process SVG files with usvg (https://github.com/RazrFalcon/resvg/tree/master/crates/usvg)"
+readme = "README.md"
+homepage = "https://github.com/schwa/usvg-cli"
+repository = "https://github.com/schwa/usvg-cli"
+keywords = ["cli", "svg", "usvg"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
