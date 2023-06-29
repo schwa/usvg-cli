@@ -4,7 +4,7 @@ A (rust) tool to process SVG files with usvg (https://github.com/RazrFalcon/resv
 
 ## From `usvg` README
 
-"SVG is notoriously hard to parse. usvg presents a layer between an XML library and a potential SVG rendering library. It will parse an input SVG into a strongly-typed tree structure were all the elements, attributes, references and other SVG features are already resolved and presented in a simplest way possible. So a caller doesn't have to worry about most of the issues related to SVG parsing and can focus just on the rendering part."
+"SVG is notoriously hard to parse. usvg presents a layer between an XML library and a potential SVG rendering library. It will parse an input SVG into a strongly-typed tree structure [where] all the elements, attributes, references and other SVG features are already resolved and presented in a simplest way possible. So a caller doesn't have to worry about most of the issues related to SVG parsing and can focus just on the rendering part."
 
 ``usvg-cli`` is a simple command-line tool that wraps the usvg parser and allows you to read an SVG file, process it with usvg and then write the processed file. That's it.
 
